@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    
+}
+
+.logo img {
+    max-width: 100%;
+
+}
+.divUpContainer{
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#ccffff;
+    border-bottom: 1px solid black;
+}
+
+.divUp{
+    margin-top: 0;
+    width: 70%;
+    height: 3rem; 
+    display: flex;
+    align-items: center;
+}
+.nabarContainerOut{
+    background-color: #9a99ff;
+    height: auto;
+    width: 100%;
+}
+.navbar{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: clamp(0.9rem, 1vw + 1rem, 2.2rem);
+}
+li{
+    font-size: 1rem;
+    margin-left: 1rem;
+    font-weight: bold;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#caruosel{
+    width: 100% !important;
+    margin: 2rem auto;  
+}
+
+
+.button {
+    height: 15% ;
+    cursor: pointer;
+    position: absolute;
+    top: 50%; 
+}
+.button img {
+    max-height: 100%;
+
+}
+#rightButton {
+    right: 0;
+}
+#leftButton {
+    left: 0;
+}
+.caruoselOut{
+    width: 100%;
+    height: auto;
+    background-color: #ccffff;
+}
+.caruoselContainer{
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+    position: relative;
+}
+.cardsOut{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem auto;
+}
+.cardscontainer{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.cardsOne{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+.card{
+    font-size: 14px;
+    height: 100%;
+    border-radius: 10px;
+}
+.cardHeader{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: #9999ff;
+}
+.cardHeader img {
+    height: 6rem;
+   
+}
+.cardTitle{
+    color: white;
+}
+.cardBody{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    font-size: 11px;
+    line-height: 1.5;
+}
+span{
+    margin-top: 0;
+    color: red;
+}
+hr{
+    margin: 1rem 0;
+}
+.flagContainer{
+    display: wrap;
+    margin: 0 auto;
+    width: 70%;
+}
+.flags{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+.flag img{
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    padding: 2px;
+    width: 100%;
+}
+.flag{
+    width: 30%;
+}
+.flag h3{
+    margin-top: 1rem; 
+
+}
+.aboutOut{
+    width: 100%;
+    align-items: center;
+    margin-top: 4rem;
+    background-color: #ccffff;
+    border-top:  1px solid black;
+    border-bottom: 1px solid black;
+}
+.aboutContainer{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.aboutContainer p{
+    font-size: 12px;
+    line-height: 1.5;
+}
+.about{
+    width: 100%;
+    display: wrap;
+    align-items: center;
+}
+.about h1{
+   margin-top: 2rem;
+}
+.why{
+    width: 100%;
+    display: wrap;
+    align-items: center;
+}
+.why h1{
+    margin-top: 2rem;
+}
+ 
+.whyCard{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 1rem auto;
+
+}
+.whyCard img{
+    margin-right: 1rem;
+}
+hr{
+    margin-right: 1rem ;
+}
+.travel{
+    width: 70%;
+    display: wrap;
+    align-items: center;
+    margin: 2rem auto;
+    margin-bottom: 4rem;
+}
+button{
+    width: 8rem;
+    height: 3rem;
+    border-radius: 0.2rem;
+    background-color: #aadbc0;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.footer{
+    width: 100%;
+    height: 6rem;
+    background-color: #9999ff;
+    display: flex;
+    align-items: center;
+}
+.footerContainer{
+    width: 70%;
+    margin: 0 auto;
+    
+}
+.footerContainer ul li{
+    margin-left: 1rem;
+    font-size: 12px;
+    margin:  0,2rem ;
+}
+
+
+@media (max-width:900px) {
+   
+    .navbar{
+        flex-wrap: wrap;
+        
+       
+    }
+    /* .nabarContainerOut{
+        height: 12rem;
+    } */
+   
+
+    .aboutContainer{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:600px) {
+   
+    .cardsOne{
+        flex-direction: column;
+
+    }
+    
+
+    .navbarLink{
+        width: 100%;
+    }
+    .navbarLink ul{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: .5rem;
+        margin: 1.5rem 0;
+    }
+
+    .navbarLink ul li{
+       border-top: 1px solid white;
+       width: 100%;
+    }
+
+    .navbar{
+        justify-content: flex-start;
+    }
+
+}
+
+
+
+
+    
+
+
+
+
+
