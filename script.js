@@ -11,6 +11,7 @@ let pictures = [
     "./assets/9.jpg",
     "./assets/10.jpg",
     "./assets/11.jpg",
+    
 ]
 
 img.src = pictures[0];
