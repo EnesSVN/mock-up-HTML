@@ -5,12 +5,12 @@ const leftButton = document.getElementById('leftButton');
 
 
 let pictures = [ 
-    "/assets/6.jpg",
-    "/assets/7.jpg",
-    "/assets/8.jpg",
-    "/assets/9.jpg",
-    "/assets/10.jpg",
-    "/assets/11.jpg",
+    "./assets/6.jpg",
+    "./assets/7.jpg",
+    "./assets/8.jpg",
+    "./assets/9.jpg",
+    "./assets/10.jpg",
+    "./assets/11.jpg",
 ]
 
 img.src = pictures[0];
